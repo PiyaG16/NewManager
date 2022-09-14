@@ -7,6 +7,8 @@
   --dark-color: #333;
   --max-width: 1100px;
   --background: #42acee;
+  --font-color: #fff;
+  --background-color: hwb(249 33% 11%);
 }
 
 .category {
@@ -40,9 +42,9 @@ p {
   margin: 0.5rem 0;
 }
 
-img {
+/* img {
   width: 100%;
-}
+} */
 
 h1,
 h2,
@@ -120,7 +122,7 @@ h6 {
   padding: 1rem;
 }
 
-.bg-dark {
+. bg-dark {
   background: var(--dark-color);
   color: #fff;
 }
@@ -378,10 +380,24 @@ p.ex {
   width: 130px;
 }
 .capture-image  {
-  height: 120px;
-  width: 120px;
+  height: 200px;
+  width: 200px;
 }
 .symbol-image  {
   height: 20px;
   width: 25px;
+}
+.image-image {
+    height: 70px;
+    width: 70px;
+}
+
+.bg-font {
+  background: var(--font-color);
+  color: #fff;
+}
+
+.bg-color {
+  background: var(--background-color);
+  color: #fff;
 }
