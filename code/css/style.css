@@ -371,25 +371,25 @@ main-footer img {
 p.ex {
   color: #f4f4fa;
 }
-.icon8-image  {
+.icon8-image {
   height: 50px;
   width: 50px;
 }
-.logo-image  {
+.logo-image {
   height: 100px;
   width: 130px;
 }
-.capture-image  {
+.capture-image {
   height: 200px;
   width: 200px;
 }
-.symbol-image  {
+.symbol-image {
   height: 20px;
   width: 25px;
 }
 .image-image {
-    height: 70px;
-    width: 70px;
+  height: 70px;
+  width: 70px;
 }
 
 .bg-font {
@@ -400,4 +400,8 @@ p.ex {
 .bg-color {
   background: var(--background-color);
   color: #fff;
+}
+
+.h-200 {
+  height: 200px;
 }
